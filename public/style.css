@@ -1,0 +1,110 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    background-image: linear-gradient(100deg,#a1f1df,#ffbbbb);    
+    font-family: 'Neucha', cursive;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    margin: auto;
+    background: none;
+    padding: 0 40px;
+    
+    align-items: center;
+    display: block;
+    margin-bottom: 20px;
+}
+header .titulo1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #f71458;
+    text-align: center;
+}
+
+header .titulo2{
+    font-size: 25px;
+}
+
+#notificaciones{
+    background: #ffebf1;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    border: 2px dashed;
+    border-radius: 20px;
+    border-color: #f71458;
+    padding: 20px;
+}
+
+.tituloPrincipal{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.acciones{
+    display: flex;
+    position: relative;
+}
+.acciones .cuadros{
+    height: 350px;
+    margin: auto;
+    width: 600px;
+    background-color: #ffbbbb;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.tituloChat{
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+#salida{
+    background: #ffebf1;
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    border: 2px dashed;
+    border-radius: 20px;
+    border-color: #f71458;
+    padding: 20px;
+}
+.cajas{
+    
+    margin: auto;
+    display: flex;
+    position: relative;
+    padding: 50px;
+    align-items: center;
+}
+.cajas input{
+    margin: 5px;
+    height: 30px;
+    width: 400px;
+    font-family: 'Neucha', cursive;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+ }
+ .cajas button{
+    font-family: 'Neucha', cursive;
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    background: #f71458;
+    color: #ffffff;
+ }

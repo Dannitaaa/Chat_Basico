@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cabin+Sketch:wght@700&family=Neucha&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Chat socket</title>
+  </head>
+  <body>
+    <header>
+      <div class="titulo1">Sockets.io</div>
+      <div class="titulo2">
+        <i class='bx bxs-user-pin user'></i>
+        Danae Alvarez Castañeda</div>
+    </header>
+    <div class="acciones">
+      <div class="cuadros">
+        <h1 class="tituloPrincipal">Usuarios</h1>
+        <div id="notificaciones"></div>
+      </div>
+      <div class="cuadros">
+        <h1 class="tituloChat">Chat</h1>
+        <div id="salida">
+          <div id="avisos"></div>
+        </div>
+      </div>
+    </div>
+    <div class="cajas">
+      <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+    <input type="text" name="mensaje" id="mensaje" placeholder="Mensaje" required>
+    <button id="enviar">Enviar</button>
+    </div>
+    
+
+
+    <script src="js/socket.io.js"></script>
+    <script src="js/logica.js"></script>
+  </body>
+</html>
